@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: darksalmon;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+
+        h1{
+            background-color: whitesmoke;
+            padding:10px;
+            margin: 10px auto 10px auto;
+            height: 39px;
+            width: 350px;
+            text-align: center;
+        }
+        main{
+            background-color: whitesmoke;
+            text-align: justify;
+            margin-right: 20px;
+            margin-left: 20px;
+            padding: 2px;
+            border-radius: 20px 0px; /* altera na diagonal */
+            box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.315);
+
+        }
+
+       
+        nav{
+            background-color: rgba(240, 181, 161, 0.849);
+            padding: 3px;
+            box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.315);
+            
+            margin: 1px 0px 10px 0px;       
+        }
+        nav > a{
+            text-decoration: none;
+            color:black;
+        }
+        nav > a:hover{
+
+            text-decoration: none;
+            border: 5px solid rgba(175, 90, 80, 0.678);
+            padding: 5px;
+            color: black;
+            margin-left: 3px;
+        }
+        article{
+            background-color: rgb(197, 197, 197) ;
+            padding-top:none;
+        }
+        article > aside{
+            background-color: grey;
+        }
+        section{
+            background-color: darksalmon;
+            padding-bottom: none;
+            display:unset;
+        }
+        footer{
+            background-color: black;
+            font-family: monospace;
+            color:white;
+            margin:0px;
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <p>Não vejo necessidade mas o professor colocou esta section</p>
+            <br>
+        </section>
+        <article>
+            <h2>Noticia sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ducimus, corporis accusantium repellendus magnam excepturi placeat, possimus eos obcaecati totam repellat dolore. Laboriosam error ratione doloremque! Optio ducimus suscipit magnam.</p>
+            <aside>
+                <p>Argito escrito por José da Silva</p>
+            </aside>
+        </article>
+    </main>
+    <footer>
+        <p>Desenvolvido por Axante Comunicação</p>
+    </footer>
+</body>
+</html>

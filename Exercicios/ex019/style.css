@@ -1,0 +1,43 @@
+@charset 'UTF-8';
+
+body{
+    background-color: rgb(181, 247, 181)
+}
+
+h1#principal{
+    background-color: darkgreen;
+    text-align: center;
+    color: whitesmoke;
+}
+
+h1{
+    color:rgb(21, 128, 21);
+}
+
+h2{
+    color: rgb(43, 170, 43);
+}
+
+p{
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    text-indent: 30px;
+}
+
+.basico{
+    color:#3c805e;
+}
+
+.intermediario{
+    color:#7b803c;
+
+}
+
+.avancado{
+    color:#803c3c;
+
+}
+
+.destaque{
+    background-color:rgba(212, 212, 103, 0.589)
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de textos</title>
+    <style>
+        mark { 
+            background-color: rgb(40, 130, 214);
+        }
+    </style>
+</head>
+<body>
+    <h1>Principais Formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nesta frase temos um <b>termo em Negrito</b> usando a tag B, tag apenas de formatação, não semantica</p>
+    <p>Já nesta frase, temos um <strong>termo em negrito</strong> utilizando a tag STRONG, semantica (com sentido)</p>
+    <h2>italico / Enfase</h2>
+    <p>Neste exemplo, criamos um <i>termo em italico</i> utilizando a tag I(apenas estilo) </p>
+    <p>Já neste exemplo, criamos um <em>termo com enfas</em>e, utilizando a tag ENFASE (semantica)</p>
+    <h2>Textos Marcados</h2>
+    <p>Podemos criar também <mark style="background-color: orangered;">um texto marcado</mark> utilizando a tag MARK.  <!--marcará somente dentro do texto descrito na chave-->
+    Entretanto, se eu quiser utilizar uma cor diferente eu posso utilizar a marcação STYLE e selecionar o subgrupo background para alterar a cor, que ficará somente neste paragrafo. 
+    <p>Para alterar em todo o texto e também em futuras marcações é necessário alterar na cabeça no site (head) assim ele herdará para os próximos marks, <mark>como este por exemplo</mark>, que ficou azul, como o paragrafo anterior está marcado dentro da tag, ele não irá alterar.</p>
+    <p><mark>Já este novo paragrafo sim, irá ficar inteiro azul.</mark></p>
+    <h2>Textos grandes e pequenos</h2>
+    <p>Estamos criando um <big>texto grande</big> utilizando a tag BIG, que já está descontinuada pel html5, e um <small>texto pequeno</small> utilizando a tag SMALL, que continua valida</p>
+    <h2>Texto Deletado</h2>
+    <p> Podemos marcar <del>um texto como excluído</del> utilizando a tag DEL </p>
+    <h2>Texto Inserido</h2>
+    <p>Podemos também d<ins>ar enfase a um texto incluido posteriormente</ins> utilizando a tag INS </p>
+    <p>A tag INS irá sublinhar o texto, que também poderia ser feito com a tag U, <u>como neste caso</u>, mas a TAG U não tem semantica, apenas estilo ou seja, deveria ser feito via CSS</p>
+    <h2>Texto Sobrescrito</h2>
+    <p>Textos sobrescritos são os textos que tem caracteteres elevados, como por exemplo X<sup>20</sup>*2, onde utilizado a tag SUP.</p>
+    <h2>Texto Subscrito</h2>
+    <p>Já os textos subscritos, são textos que contem caracteres diminuídos como formulas quimicas, exemplo o H<sub>2</sub>O, que utilizamos a tag sub.</p>
+</p>
+</body>
+</html>

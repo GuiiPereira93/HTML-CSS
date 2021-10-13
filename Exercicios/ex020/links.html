@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando links</title>
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5em;
+            font-family: monospace;
+        }
+
+        a:visited{
+            color:darkred;
+
+            text-decoration: underline;
+            
+            
+        }
+
+        a:hover{
+            color:rgb(223, 20, 20);
+            background-color:white;
+            font-family: monospace;
+
+        }
+
+        a:active{
+           font-weight: bolder;
+           color: blue;
+        }
+
+        .especial{ background-color: rgba(0, 0, 0, 0.151);
+            color: white;
+        }
+
+        .especial::before{
+           content: '⇒'
+        }
+
+        .especial::after{
+           content:'⇐'
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.facebook.com/guilherme.ignaciopereira" target = _blank>Meu Facebook</a></li>
+        <li><a href="https://twitter.com/Guigo_1993" target=_blank class='especial'>Meu Twitter</a></li>
+        <li><a href="https://github.com/GuiiPereira93/Meusarquivos" target="_blank" class="especial">Meu portifólio no github</a></li>
+    </ul>
+    
+</body>
+</html>

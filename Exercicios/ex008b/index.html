@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras Formatações</title>
+</head>
+<body>
+    <h1>Outras Formatações</h1>
+    <h2>Código Fonte</h2>
+    <p>O comando document.getElementById ('teste') [e escrito em linguagem javaScript</p>
+    <p>O texto acima fica dificil de ler sem codificar, portanto vou repetir ele com o código fonte tag CODE abaixo.</p>
+    <p>O comando document.<code>getElementById ('teste')</code> é escrito em linguagem javaScript. Percebeu a diferença? A tag code torna o texto monoespaçado</p>
+    <br>
+    <p>Entrtanto o CODE não traz a indetaxão no navegador, e para isso existe a tag PRE, veja o exemplo abaixo com um código PHYTON, sem a tag pre ele irá exibir os códigos um ao lado do outro, fomo uma função do excel.</p> <!--Estudar também phyton-->
+    <code>
+        num = int(input('Digite um número))
+        if num %2 ==0
+            print(f'O numero {num} é PAR")
+        else:
+            print(f'O numero {num} é ÍMPAR)
+            print ('Fm do programa')
+    </code>
+
+<p>Agora olhe o resultado do mesmo código envelopado dentro do PRE:</p>
+<pre>
+    <code>
+        num = int(input('Digite um número))
+        if num %2 ==0
+            print(f'O numero {num} é PAR")
+        else:
+            print(f'O numero {num} é ÍMPAR)
+            print ('Fm do programa')
+    </code>
+</pre>
+Você ainda pode reconfigurar a posição do código, utilizando somente o tab ou shit e tab, para a direita ou esquerda
+<pre>
+    <code>
+num = int(input('Digite um número))
+if num %2 ==0
+    print(f'O numero {num} é PAR")
+else:
+    print(f'O numero {num} é ÍMPAR)
+    print ('Fm do programa')
+    </code>
+</pre>
+<h2>Citações Simples</h2>
+<p>Como diria o pai de um amigo: <q>o computador é um burro muito rapido</q>. E isso é uma sitação, que está marcada com a tag Q de quote ou seja, citação em inglês.</p>
+<p>A diferença entre incluir aspas manualmente é que a marcação traz o sentido de sitação para os sistemas, já as aspas simples vai exemplificar tal ato apenas para o leitor.</p>
+<h2>Citações completas</h2>
+<p>A diferença entre a sitação simples para a completa é, entre outas, o deslocamento para destaque da situação. Veja o exemplo <blockquote>Não sei se tomei as melhores decisões que podia na minha vida.</blockquote>
+<p>Entendeu? Ele destaca a sitação, existe ainda uma forma de pegar uma situação da internet, atrelando o local onde está a referência para aprimorar nas ferramentas de buscas.</p>
+<p>Por exemplo, segundo a noticia do site Bem Parana <blockquote cite="https://www.bemparana.com.br/noticia/brasil-ultrapassa-20-milhoes-de-casos-de-covid-19-284#.YQwBq45KjIU">Com 40.429 novos casos notificados nas últimas 24 horas, o Brasil chegou nesta quarta-feira, 4, à marca de 20.026.502 de infectados pelo novo coronavírus. Nesta quarta, o País ainda registrou 1.118 mortes por covid-19, elevando para 559.715 o número total de vítimas da doença.</blockquote></p>
+<p>No navegador não irá aparecer o link ao site, mas dentro do sistema o link estará atrelado.</p>
+<h2>Abreviações</h2>
+<p>A tag abbr irá incluir a descrição de um texto abreviado, como o exemplo utilizado pelo professor. <q>Estou estudando HTML e CSS, estou adorando</q>.</p>
+<p>O paragrafo acima não exibe a abreviação, mas olhe o próximo...</p>
+<p> Estou estudando <abbr title="Hypertext Markup Language">HTML</abbr> e <abbr title="Cascating Style Sheets">CSS</abbr>, estou adorando. Viu a diferença?</p></p>
+<h2>Texto Invertido</h2>
+<p>Estou aprendendo criar coisas em HTML.</p>
+<p>Esse texto acima será aplicado a tag bdo, que inverte o texto por ela envelopado, para que? sinceramente não sei, veja o resultado abaixo.</p>
+<p><bdo dir="rtl">Estou aprendendo criar coisas em HTML</bdo>.</p> <!--rlT direita para esquerda LFT esquerda a direita-->
+</body>
+</html>
